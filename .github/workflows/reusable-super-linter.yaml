@@ -27,7 +27,7 @@ on:
         required: false
         type: string
       runner-labels:
-        description: 'runs-on override (format: ''["self-hosted", "Linux"]'')'
+        description: 'runs-on override (format: \u0027["self-hosted", "Linux"]\u0027)'
         required: false
         type: string
         default: '["ubuntu-latest"]'
