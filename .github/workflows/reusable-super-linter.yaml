@@ -41,7 +41,7 @@ jobs:
 
     name: Super-Linter
 
-    runs-on: ${{ inputs.runs-on }}
+    runs-on: ${{ inputs.runner-labels }}
 
     steps:
       - name: Checkout Code
