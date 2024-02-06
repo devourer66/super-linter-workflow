@@ -26,8 +26,8 @@ jobs:
     name: Call Super-Linter
         
     uses: ./.github/workflows/reusable-super-linter.yaml
-    with:
-      runner-labels: '["self-hosted", "Linux"]'
+    #with:
+    #  runner-labels: '["self-hosted", "Linux"]'
     
     permissions:
       contents: read # clone the repo to lint
