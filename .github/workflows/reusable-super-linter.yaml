@@ -41,7 +41,7 @@ jobs:
 
     name: Super-Linter
 
-    runs-on: ${{ fromJson(inputs.runner-labels) }}
+    runs-on: ${{ inputs.runner-labels }}
 
     steps:
       - name: Checkout Code
