@@ -26,6 +26,11 @@ on:
         description: A regex to exclude files from linting
         required: false
         type: string
+      runs-on:
+        description: runs-on override
+        required: false
+        type: string
+        default: ubuntu-latest
 
 permissions:
   contents: read            # git permissions to repo pull/push
@@ -36,7 +41,7 @@ jobs:
 
     name: Super-Linter
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ inputs.runs-on }}
 
     steps:
       - name: Checkout Code
