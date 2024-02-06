@@ -6,7 +6,7 @@
 name: Lint
 
 # disable all permissions by default. We will enable necessary permissions in a job
-permissions: {}
+# permissions: {}
 
 on:
   push:
