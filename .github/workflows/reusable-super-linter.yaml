@@ -30,7 +30,7 @@ on:
         description: 'runs-on override (format: \u0027["self-hosted", "Linux"]\u0027)'
         required: false
         type: string
-        default: '["ubuntu-latest"]'
+        default: "ubuntu-latest"
 
 permissions:
   contents: read            # git permissions to repo pull/push
