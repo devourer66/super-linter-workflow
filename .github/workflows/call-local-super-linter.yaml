@@ -27,7 +27,7 @@ jobs:
         
     uses: ./.github/workflows/reusable-super-linter.yaml
     with:
-      runner-labels: "[self-hosted]"
+      runner-labels: [self-hosted]
     
     permissions:
       contents: read # clone the repo to lint
